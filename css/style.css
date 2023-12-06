@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+.blocOne {  
+    color: rgb(67, 42, 42);
+    min-height: 600px;
+    min-width: 300px;
+    border: none;
+}
+
+#body1 {
+    border-radius: 50px;
+}
+
+#body2 {
+    border-radius: 50px;
+}
+
+.blocTwo {
+    background-color: rgb(163, 129, 129, 89%);
+    /*margin-top: 150px;*/
+    color: white;
+    min-height: 600px;
+    min-width: 300px;
+    padding: 10px;
+}
+
+.titre_savoir {
+    text-align: center;
+    font-size: 4rem;
+}
+.col-8 {
+    margin-left: 15%;
+    padding: 20px;
+}
+
+.col-8 input {
+    height: 70px;
+    border-radius: 50px;
+    min-width: 120px;
+
+}
+
+#bodyconx .col-8 {
+    padding: 5px !important;
+
+}
+a {
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 15%;
+    flex: 1;
+    font-size: 1.5rem;
+}
+
+#boutonC {
+    border-radius: 100px; 
+    background-color: rgb(67, 42, 42);
+    height: 60px;
+    width: 200px;
+    font-size: 1.5rem; 
+}
+#boutonC:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    color: rgb(67, 42, 42);
+    
+}
+
+#bouton0 {
+    border-radius: 100px; 
+    background-color: rgb(67, 42, 42);
+    left: 20%;
+    height: 60px;
+    width: 150px;
+    font-size: 1.5rem;
+    margin-left: 55%;
+    
+}
+
+#bouton0:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    color: rgb(67, 42, 42);
+    
+}
+
+#bouton:hover {  
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    color: rgb(67, 42, 42);
+}
+#bouton {
+    border-radius: 100px; 
+    background-color: rgb(67, 42, 42);
+    height: 60px;
+    width: 150px;
+    font-size: 1.5rem; 
+}
+ 
+#bouton2 {
+    border-radius: 100px; 
+    background-color: rgb(67, 42, 42);
+    height: 60px;
+    width: 150px;
+    font-size: 1.5rem;
+    margin-left: 20%;
+    
+}
+#bouton2:hover {  
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    color: rgb(67, 42, 42);
+}
+
+.bg-body-tertiary {
+    background-color: rgb(67, 42, 42) !important;
+    border: none !important;
+    border-width:0!important;
+}
+
+.footer{
+    background:  rgb(67, 42, 42);
+    color:white;
+    padding: 15px 0;
+    
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    
+    
+}
+
+/*responsive*/
+@media screen and (max-width: 3000px) {
+  #bouton2 {
+    margin-left: 0 !important;
+  }
+}
