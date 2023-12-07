@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+.blocOne {  
+    color: rgb(67, 42, 42);
+    min-height: 600px;
+    min-width: 300px;
+    border: none;
+}
+
+#body1 {
+    border-radius: 50px;
+}
+
+#body2 {
+    border-radius: 50px;
+}
+
+.blocTwo {
+    background-color: rgb(163, 129, 129, 89%);
+    color: white;
+    min-height: 600px;
+    min-width: 300px;
+    padding: 10px;
+}
+
+.titre_savoir {
+    text-align: center;
+    font-size: 4rem;
+}
+.col-8 {
+    margin-left: 15%;
+    padding: 20px;
+}
+
+.col-8 input {
+    height: 70px;
+    border-radius: 50px;
+    min-width: 120px;
+
+}
+
+#bodyconx .col-8 {
+    padding: 5px !important;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 15%;
+    flex: 1;
+    font-size: 1.5rem;
+    padding-bottom: 100px; 
+}
+
+#boutonC {
+    border-radius: 100px; 
+    background-color: rgb(67, 42, 42);
+    height: 60px;
+    width: 200px;
+    font-size: 1.5rem; 
+}
+#boutonC:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    color: rgb(67, 42, 42);
+    
+}
+
+#bouton0 {
+    border-radius: 100px; 
+    background-color: rgb(67, 42, 42);
+    left: 20%;
+    height: 60px;
+    width: 150px;
+    font-size: 1.5rem;
+    margin-left: 55%;
+    
+}
+
+#bouton0:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    color: rgb(67, 42, 42);
+    
+}
+
+#bouton:hover {  
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    color: rgb(67, 42, 42);
+}
+#bouton {
+    border-radius: 100px; 
+    background-color: rgb(67, 42, 42);
+    height: 60px;
+    width: 150px;
+    font-size: 1.5rem; 
+}
+ 
+#bouton2 {
+    border-radius: 100px; 
+    background-color: rgb(67, 42, 42);
+    height: 60px;
+    width: 150px;
+    font-size: 1.5rem;
+    margin-left: 20%;
+    
+}
+#bouton2:hover {  
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    color: rgb(67, 42, 42);
+}
+
+.bg-body-tertiary {
+    background-color: rgb(67, 42, 42) !important;
+    border: none !important;
+    border-width:0!important;
+}
+
+
+.col-8 input {
+    height: 50px;
+    border-radius: 50px;
+    min-width: 120px;
+
+}
+
+
+.choix {
+    font-size: 1rem; 
+    text-align: center; 
+    font-size:20px;
+}
+  
+/* Styles pour le footer */
+.footer {
+    background-color: rgb(67, 42, 42);
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*responsive*/
+@media screen and (max-width: 3000px) {
+  #bouton2 {
+    margin-left: 0 !important;
+  }
+}
+
+/* Ajouter une classe spécifique pour gérer le padding-bottom du contenu en mode responsive */
+/*
+@media screen and (max-width: 1250px) {
+    .content {
+        padding-bottom: 120px; 
+        font-size: 1rem;
+        margin-top: 0%;
+    }
+
+    .choix {
+        font-size: 0.5rem; 
+    }
+
+    .titre_savoir {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #bouton {
+        font-size: 1rem; 
+        height: 45px;
+    }
+     
+    #bouton2 {
+        font-size: 1rem;
+        height: 45px;
+        
+    }
+
+    #bouton0 {
+        font-size: 1rem;
+        margin-left: 0;
+        height: 45px;
+    }
+
+    
+    #boutonC {
+        height: 45px;
+        width: 150px;
+        font-size: 1rem; 
+    }
+
+    .blocTwo {
+        padding: 0px;
+        min-height: 500px;
+        min-width: 300px;
+    }
+
+    .col-8 input {
+        height: 50px;
+        border-radius: 50px;
+        min-width: 150px;
+    
+    }
+
+    .footer {
+      position: relative;
+      clear: both;
+      width: 100%;
+      height: auto;
+      margin-top: 20px; 
+    }
+}
+
+
+@media screen and (width: 1263px) and (height: 1194px) {
+    .content {
+        margin-bottom: 400px;
+        
+        font-size: 1rem;
+        margin-top: 0%;
+    }
+
+    .choix {
+        font-size: 0.5rem; 
+    }
+
+    .titre_savoir {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #bouton {
+        font-size: 1rem; 
+        height: 45px;
+    }
+     
+    #bouton2 {
+        font-size: 1rem;
+        height: 45px;
+        
+    }
+
+    #bouton0 {
+        font-size: 1rem;
+        margin-left: 0;
+        height: 45px;
+    }
+
+    
+    #boutonC {
+        height: 45px;
+        width: 150px;
+        font-size: 1rem; 
+    }
+
+    .blocTwo {
+        padding: 0px;
+        min-height: 500px;
+        min-width: 300px;
+    }
+
+    .col-8 input {
+        height: 50px;
+        border-radius: 50px;
+        min-width: 150px;
+    
+    }
+
+    .footer {
+      position: relative;
+      clear: both;
+      width: 100%;
+      height: auto;
+      margin-top: 20px; 
+    }
+}
+
+
+
+
+@media screen and (min-width: 810px) and (max-width: 1250px) {
+    .content {
+        margin-bottom: 500px; 
+        font-size: 1rem;
+        margin-top: 0%;
+    }
+
+    .choix {
+        font-size: 0.5rem; 
+    }
+
+    .titre_savoir {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #bouton {
+        font-size: 1rem; 
+        height: 45px;
+    }
+     
+    #bouton2 {
+        font-size: 1rem;
+        height: 45px;
+        
+    }
+
+    #bouton0 {
+        font-size: 1rem;
+        margin-left: 0;
+        height: 45px;
+    }
+
+    
+    #boutonC {
+        height: 45px;
+        width: 150px;
+        font-size: 1rem; 
+    }
+
+    .blocTwo {
+        padding: 0px;
+        min-height: 500px;
+        min-width: 300px;
+    }
+
+    .col-8 input {
+        height: 50px;
+        border-radius: 50px;
+        min-width: 150px;
+    
+    }
+  
+
+    .footer {
+      position: relative;
+      clear: both;
+      width: 100%;
+      height: auto;
+      margin-top: 20px; 
+    }
+}
+*/
+
+
+@media screen and (min-height: 1369px) and (max-height: 1365px) and (min-width: 200px) {
+    .content {
+        margin-bottom: 200px; /* Ajustez la valeur pour laisser de l'espace pour le footer en mode responsive */
+        font-size: 1rem;
+        margin-top: 0%;
+    }
+
+    .choix {
+        font-size: 0.5rem; 
+    }
+
+    .titre_savoir {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #bouton {
+        font-size: 1rem; 
+        height: 45px;
+    }
+     
+    #bouton2 {
+        font-size: 1rem;
+        height: 45px;
+        
+    }
+
+    #bouton0 {
+        font-size: 1rem;
+        margin-left: 0;
+        height: 45px;
+    }
+
+    
+    #boutonC {
+        height: 45px;
+        width: 150px;
+        font-size: 1rem; 
+    }
+
+    .blocTwo {
+        padding: 0px;
+        min-height: 500px;
+        min-width: 300px;
+    }
+
+    .col-8 input {
+        height: 50px;
+        border-radius: 50px;
+        min-width: 150px;
+    
+    }
+  
+    /* Ajustements pour le footer en mode responsive */
+    .footer {
+      position: relative;
+      clear: both;
+      width: 100%;
+      height: auto;
+      margin-top: 20px; /* Ajoute un espace entre le contenu et le footer en mode responsive */
+    }
+}
+
+
+/*surface pro */
+@media screen and (height: 1368px) and (min-width: 200px) {
+    .content {
+        margin-bottom: 400px; /* Ajustez la valeur pour laisser de l'espace pour le footer en mode responsive */
+        font-size: 1rem;
+        margin-top: 0;
+        margin-left: 8%;
+    }
+
+    .col-8 {
+        margin-left: 10%;
+        padding: 10px;
+    }
+
+    .choix {
+        font-size: 0.5rem; 
+    }
+
+    .titre_savoir {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #bouton {
+        font-size: 1rem; 
+        height: 45px;
+    }
+     
+    #bouton2 {
+        font-size: 1rem;
+        height: 45px;
+        
+    }
+
+    #bouton0 {
+        font-size: 1rem;
+        margin-left: 0;
+        height: 45px;
+    }
+
+    
+    #boutonC {
+        height: 45px;
+        width: 150px;
+        font-size: 1rem; 
+    }
+
+    .blocTwo {
+        padding: 0px;
+        min-height: 500px;
+        min-width: 300px;
+    }
+
+    .col-8 input {
+        height: 50px;
+        border-radius: 50px;
+        min-width: 150px;
+    
+    }
+  
+    /* Ajustements pour le footer en mode responsive */
+    .footer {
+      position: relative;
+      clear: both;
+      width: 100%;
+      height: auto;
+      margin-top: 20px; /* Ajoute un espace entre le contenu et le footer en mode responsive */
+    }
+}
+
+/* galaxy fold */
+@media screen and (height: 653px) and (width: 280px) {
+    .content {
+        margin-bottom: 150px; /* Ajustez la valeur pour laisser de l'espace pour le footer en mode responsive */
+        font-size: 1rem;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .blocOne {  
+        color: rgb(67, 42, 42);
+        min-height: 600px;
+        min-width: 100% !important;
+        border: none;
+    }
+
+    .blocTwo {
+        background-color: rgb(163, 129, 129, 89%);
+        color: white;
+        min-height: 500px;
+        min-width: 100% !important;
+        padding: 0px;
+    }
+
+    .col-8 {
+        margin-left: 10%;
+        padding: 10px;
+    }
+
+    .choix {
+        font-size: 0.5rem; 
+    }
+
+    .titre_savoir {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #bouton {
+        font-size: 1rem; 
+        height: 45px;
+    }
+     
+    #bouton2 {
+        font-size: 1rem;
+        height: 45px;
+        
+    }
+
+    #bouton0 {
+        font-size: 1rem;
+        margin-left: 0;
+        height: 45px;
+    }
+
+    
+    #boutonC {
+        height: 45px;
+        width: 150px;
+        font-size: 1rem; 
+    }
+
+    .col-8 input {
+        height: 50px;
+        border-radius: 50px;
+        min-width: 150px;
+    
+    }
+  
+    /* Ajustements pour le footer en mode responsive */
+    .footer {
+      position: relative;
+      clear: both;
+      width: 100%;
+      height: auto;
+      margin-top: 20px; /* Ajoute un espace entre le contenu et le footer en mode responsive */
+    }
+}
+
+/* samsung galaxy s8 */
+@media screen and (height: 740px) and (min-width: 280px) {
+    .content {
+        margin-bottom: 150px; /* Ajustez la valeur pour laisser de l'espace pour le footer en mode responsive */
+        font-size: 1rem;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .blocOne {  
+        color: rgb(67, 42, 42);
+        min-height: 600px;
+        min-width: 100% !important;
+        border: none;
+    }
+
+    .blocTwo {
+        background-color: rgb(163, 129, 129, 89%);
+        color: white;
+        min-height: 500px;
+        min-width: 100% !important;
+        padding: 0px;
+    }
+
+    .col-8 {
+        margin-left: 15%;
+        padding: 10px;
+    }
+
+    .choix {
+        font-size: 0.5rem; 
+    }
+
+    .titre_savoir {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #bouton {
+        font-size: 1rem; 
+        height: 45px;
+    }
+     
+    #bouton2 {
+        font-size: 1rem;
+        height: 45px;
+        
+    }
+
+    #bouton0 {
+        font-size: 1rem;
+        margin-left: 0;
+        height: 45px;
+    }
+
+    
+    #boutonC {
+        height: 45px;
+        width: 150px;
+        font-size: 1rem; 
+    }
+
+    .col-8 input {
+        height: 50px;
+        border-radius: 50px;
+        min-width: 150px;
+    
+    }
+  
+    /* Ajustements pour le footer en mode responsive */
+    .footer {
+      position: relative;
+      clear: both;
+      width: 100%;
+      height: auto;
+      margin-top: 20px; /* Ajoute un espace entre le contenu et le footer en mode responsive */
+    }
+}
+
+
+/* ipad pro */
+@media screen and (height: 1366px) and (min-width: 200px) {
+    .content {
+        margin-bottom: 400px; /* Ajustez la valeur pour laisser de l'espace pour le footer en mode responsive */
+        font-size: 1rem;
+        margin-top: 0%;
+        margin-left: 8%;
+    }
+
+    .choix {
+        font-size: 0.5rem; 
+    }
+
+    .titre_savoir {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #bouton {
+        font-size: 1rem; 
+        height: 45px;
+    }
+     
+    #bouton2 {
+        font-size: 1rem;
+        height: 45px;
+        
+    }
+
+    #bouton0 {
+        font-size: 1rem;
+        margin-left: 0;
+        height: 45px;
+    }
+
+    
+    #boutonC {
+        height: 45px;
+        width: 150px;
+        font-size: 1rem; 
+    }
+
+    .blocTwo {
+        padding: 0px;
+        min-height: 500px;
+        min-width: 300px;
+    }
+
+    .col-8 input {
+        height: 50px;
+        border-radius: 50px;
+        min-width: 150px;
+    
+    }
+  
+    /* Ajustements pour le footer en mode responsive */
+    .footer {
+      position: relative;
+      clear: both;
+      width: 100%;
+      height: auto;
+      margin-top: 20px; /* Ajoute un espace entre le contenu et le footer en mode responsive */
+    }
+}
