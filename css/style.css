@@ -182,11 +182,14 @@ footer {
     color: white;
 }
 
-
+::-webkit-scrollbar {
+    display: none; /* Masque la barre de défilement */
+}
 
 
 body {
     overflow-x: hidden;
+    scrollbar-width: none;
     margin-bottom: 70px; /* Ajout de la marge en bas pour le pied de page fixe */
 }
   @media (min-width: 739px) {
