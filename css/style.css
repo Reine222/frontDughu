@@ -31,7 +31,7 @@ body{
     background-color: rgb(163, 129, 129, 89%);
     color: white;
     min-height: 600px;
-    min-width: 300px;
+    min-width: 350px;
     padding: 10px;
 }
 
@@ -40,8 +40,8 @@ body{
     font-size: 4rem;
 }
 .col-8 {
-    margin-left: 15%;
-    padding: 20px;
+    /* margin-left: 15%;*/
+    padding: 10px;
 }
 
 .col-8 input {
@@ -51,9 +51,16 @@ body{
 
 }
 
-#bodyconx .col-8 {
-    padding: 5px !important;
 
+.text-center-input {
+    text-align: center; /* Centrer le contenu */
+    margin-left: auto; /* Centrage horizontal */
+    margin-right: auto; /* Centrage horizontal */
+    width: 70%; /* Largeur personnalisée */
+}
+.text-center-input label {
+    text-align: left; /* Alignement du texte à gauche pour les libellés */
+    display: block; /* Affichage en bloc pour les libellés */
 }
 
 a {
@@ -62,7 +69,7 @@ a {
 
 .content {
     margin-top: 8%;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
     margin-right: 15%;
     flex: 1;
     
@@ -341,7 +348,6 @@ body {
     }
 
     .col-8 {
-        margin-left: 10%;
         padding: 10px;
     }
 
@@ -383,6 +389,18 @@ body {
         border-radius: 50px;
         min-width: 150px;
     
+    }
+
+    .text-center-input {
+        text-align: center; /* Centrer le contenu */
+        margin-left: auto; /* Centrage horizontal */
+        margin-right: auto; /* Centrage horizontal */
+        width: 100%; /* Largeur personnalisée */
+    }
+
+    .text-center-input label {
+        text-align: left; /* Alignement du texte à gauche pour les libellés */
+        display: block; /* Affichage en bloc pour les libellés */
     }
   
     /* Ajustements pour le footer en mode responsive */
@@ -451,6 +469,17 @@ body {
         border-radius: 50px;
         min-width: 200px;
     
+    }
+
+    .text-center-input {
+        text-align: center; /* Centrer le contenu */
+        margin-left: auto; /* Centrage horizontal */
+        margin-right: auto; /* Centrage horizontal */
+        width: 100%; /* Largeur personnalisée */
+    }
+    .text-center-input label {
+        text-align: left; /* Alignement du texte à gauche pour les libellés */
+        display: block; /* Affichage en bloc pour les libellés */
     }
   
     /* Ajustements pour le footer en mode responsive */
